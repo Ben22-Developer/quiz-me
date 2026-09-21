@@ -1,0 +1,61 @@
+:root {
+    --color-background: #ffffff; /* White background for a clean look */
+    --color-foreground: #f8f9fa; /* A very light grey for subtle distinction if needed */
+    --color-text: #333333;       /* Dark grey for readable text, high contrast */
+    --color-primary: #ff8800;     /* A standard, accessible blue for CTAs */
+    --color-primary-transparent: #ff880046;
+    --color-primary-hover: #b35f00;/* A darker blue for hover/focus states */
+    --color-border-subtle: #e9ecef;/* Subtle border color */
+    --color-warning: red;
+    
+    
+    --font-family-sans-serif: "Verdana", Roboto, "Helvetica Neue", Arial, sans-serif;
+    --font-weight-normal: 400;
+    --font-weight-bold: 700;
+
+    --navbar-height: 70px;
+    --navbar-padding: 1rem;
+    --container-width: 1140px;
+
+    --transition-speed: 0.2s;
+}
+
+  body {
+      margin: 0;
+      font-family: var(--font-family-sans-serif);
+      font-size: 1rem;
+      font-weight: var(--font-weight-normal);
+      line-height: 1.5;
+      color: var(--color-text);
+      background-color: var(--color-background);
+  }
+
+.button 
+{
+  background: var(--color-primary);
+  color: var(--color-text);
+  
+  display: inline-block;
+  font-size: 14px;
+  font-size: 0.8125rem;
+  font-weight: bold;
+  /* letter-spacing: 0.5px; */
+  padding: 0.7rem 2rem;
+  text-transform: uppercase;
+  border-radius: 5px;
+  border: 2px solid transparent;
+  transition: all 0.35s ease;
+  cursor: pointer;
+}
+
+.button:hover {
+  background: transparent;
+  border-color: var(--color-primary);
+  scale: 1.1;
+}
+
+.greyish-text {
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    margin-top: 4px;
+}

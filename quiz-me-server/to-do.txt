@@ -1,0 +1,10 @@
+
+- Defining database:
+
+    * question table.
+
+    * answer table.
+
+- Creating get question endpoint.
+
+- Creating post user-answer endpoint.

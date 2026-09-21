@@ -1,0 +1,1 @@
+export const unauthenticatedExceptionCode = "401";

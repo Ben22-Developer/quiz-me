@@ -1,0 +1,22 @@
+.home-div {
+    /* height: 98vh; */
+    /* border: 1px solid; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2rem;
+    gap: 1rem;
+    /* justify-content: center; */
+}
+
+.home-welcome-message 
+{
+    text-align: center;
+}
+
+.user-profile-pic
+{
+    border-radius: 50%;
+    border: 1px solid;
+    scale: 0.8;
+}

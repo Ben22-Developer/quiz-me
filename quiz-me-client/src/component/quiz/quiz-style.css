@@ -1,0 +1,140 @@
+
+.quizComponentBody {
+    /* height: 100vh; */
+    background:var(--color-border-subtle);
+    border: 1px solid;
+    /* display: flex; */
+    /* flex-direction: column; */
+    padding-bottom: 1rem;
+    /* justify-content: center;
+    align-items: center; */
+}
+
+.quizTimeCounter_QuestionDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.counter
+{
+    margin-top: .4rem;
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+    background-color: var(--color-background);
+    padding: 0 1rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+.question-text 
+{
+    text-align: center;
+}
+
+.card-list 
+{
+    margin: auto;
+    padding: 0 20px 20px 20px;
+}
+
+.card-item 
+{
+    display: flex;
+    flex-direction: column;
+    padding: .1rem;
+    border: 1px solid var(--color-primary-hover);
+    height: 27rem;
+    overflow-x:hidden;
+    overflow-y: auto;
+}
+
+.imageContainer {
+    padding: 1rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    border: 1px solid;
+    height: 80%;
+    width: fit-content;
+    margin: auto;
+}
+
+img {
+    height: 100%;
+}
+
+.card-list .card-item {
+    background: white;
+    /* padding: 26px; */
+    border-radius: 8px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.04);
+    list-style: none;
+    cursor: pointer;
+    transition: border 0.5s ease;
+}
+
+.card-list .card-item {
+    width: 100%;
+    aspect-ratio: 16/9;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.card-list .card-item:hover .arrow  {
+    background: #000;
+    color: #fff; 
+}
+
+input[type="radio"] {
+  accent-color: var(--color-primary-hover);
+}
+
+label {
+  display: flex;
+  gap: 0.625rem;
+  align-items: center;
+  margin-block: 0.75rem;
+  cursor: pointer;
+}
+
+.quizControllerButtonsDiv {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    background:var(--color-border-subtle);
+}
+
+.quizButton {
+    font-weight: 100 !important;
+}
+
+.stop.quizButton {
+    background-color: var(--color-warning);
+}
+
+.submit-quiz-button {
+    width: fit-content;
+    position: relative;
+    left: 45%;
+    margin: 1rem 0 0 0;
+    /* margin-bottom: 1rem !important; */
+}
+
+@media (width < 900px) {    
+    .card-list 
+    {
+        width: 100%;
+    }
+}
+
+@media (width < 500px) {    
+    img {
+        width: 100%;
+    }
+
+    .quizButton {
+        height: fit-content;
+    }
+}

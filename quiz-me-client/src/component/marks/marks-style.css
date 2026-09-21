@@ -1,0 +1,56 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .5rem;
+    padding: 1rem;
+}
+
+.card {
+    padding: 40px;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, .4);
+    max-width: 450px;
+    width: 100%;
+    margin-bottom: 1rem;
+    position: relative;
+}
+
+.index {
+    border: 2px solid;
+    border-left: none;
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    left:0;
+    padding: 10px;
+    background-color: var(--color-primary);
+    margin-top: -1px;
+}
+
+.centered-text {
+    text-align: center;
+}
+
+.icon {
+    width: 70px;
+    height: 70px;
+    background: var(--color-primary-transparent);
+    color: var(--color-primary);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    margin: 0 auto 20px auto;
+}
+h1 {
+    font-size: 28px;
+}
+
+.button.delete {
+    background-color: var(--color-warning);
+    
+    /* position: relative;
+    left: 25%; */
+}

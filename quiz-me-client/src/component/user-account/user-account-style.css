@@ -1,0 +1,65 @@
+
+.content-section {
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 30px;
+}
+
+.content-section:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+.content-section h2 {
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-bottom: 6px;
+}
+
+.section-subtitle {
+    font-size: 0.9rem;
+    color: var(--text-muted);
+    margin-bottom: 25px;
+}
+
+/* --- Forms & Inputs --- */
+.profile-content-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.button.danger {
+    background: var(--color-warning);
+}
+
+
+.danger-zone {
+    background: #fef2f2;
+    padding: 20px !important;
+    border-radius: 8px;
+}
+
+.danger-zone h2 {
+    color: #991b1b;
+}
+
+/* --- Responsive Media Queries --- */
+@media (max-width: 768px) {
+    .account-container {
+        flex-direction: column;
+    }
+    
+    .account-sidebar {
+        width: 100%;
+        border-right: none;
+        border-bottom: 1px solid var(--border-color);
+    }
+    
+    .form-row {
+        flex-direction: column;
+    }
+    
+    .account-content {
+        padding: 25px;
+    }
+}

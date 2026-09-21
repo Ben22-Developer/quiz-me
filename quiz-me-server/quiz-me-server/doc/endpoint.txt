@@ -1,0 +1,20 @@
+to request a quiz: 
+
+[base-url]: /api/server/v1/quiz-request
+
+[HTTP GET], expect skip param && take param.
+
+Returns List of Response of Question Quiz.
+
+to submit a quiz: 
+
+[base-url]: /api/server/v1/quiz-submit
+
+[HTTP POST], expect Dictionary<long, long> questionId to true answerId.
+
+Returns Quiz Marks.
+
+
+[HTTP POST], /jwt
+
+expect: { "Code":"auth-code" }
