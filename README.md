@@ -94,7 +94,7 @@ Here it is how the file will look like:
 
 &#x20; "ConnectionStrings": {
 
-&#x20;   "QuizMeDatabase" : "Data Source=localhost\\\\SQLEXPRESS;Initial Catalog=quiz\_me\_app;User Id=sa;Password=MicrosoftSQLServer0781172951;TrustServerCertificate=True;"
+&#x20;   "QuizMeDatabase" :  "Put here the connection string from your Microsoft SQL Server database"
 
 &#x20; },
 
