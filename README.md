@@ -134,9 +134,9 @@ Here it is how the file will look like:
 
 &#x20;   "iss" : "your asap dotnet port",
 
-&#x20;   "access\_token\_lifetime" : 30,  // access token lifetime
+&#x20;   "access\_token\_lifetime" : 30,  // access token lifetime in minutes
 
-&#x20;   "refresh\_token\_lifetime" : 7, // refresh token lifetime
+&#x20;   "refresh\_token\_lifetime" : 7, // refresh token lifetime in days
 
 &#x20;   "iss\_signing\_key" : "your symmetric signing key string"
 
